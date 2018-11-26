@@ -41,12 +41,34 @@ func analyze(_ string: String) -> [String]? {
     return [camelCasedKey, components[0], components[1]]
 }
 
-let result = strings.compactMap(analyze)
-print("public enum Strings {")
-result.forEach {
-    print("public static func \($0[0])() -> String {")
-    print("return NSLocalizedString(\"\($0[1])\", comment: \"\")")
+func extractComment(_ string: String) -> String? {
+    guard string.contains("/*"), string.contains("*/") else { return nil }
+    var mutableString = string
+
+    if let initialRange = mutableString.range(of: "/*") {
+        let removeRange = mutableString.startIndex..<initialRange.upperBound
+        mutableString.removeSubrange(removeRange)
+    }
+
+    if let closingRange = mutableString.range(of: "*/") {
+        let removeRange = closingRange.lowerBound..<mutableString.endIndex
+        mutableString.removeSubrange(removeRange)
+    }
+
+    return mutableString.replacingOccurrences(of: "\"", with: "'")
+}
+
+let results = strings.compactMap(analyze)
+let comments = strings.compactMap(extractComment)
+
+print("struct Strings {")
+let zipped = Array(zip(results, comments))
+zipped.forEach {
+    print("/// \($0.0[2])")
+    print("static func \($0.0[0])() -> String {")
+    print("return NSLocalizedString(\"\($0.0[1])\", comment: \"\($0.1)\")")
     print("}")
+    print("")
 }
 print("}")
 

@@ -1,0 +1,233 @@
+/*Title in an alert. Prompts the user to find the nearest drop-off.*/
+"end-rental.alert-title.find-nearest-drop-off" = "Find the nearest drop-off";
+
+/*Text displayed on an alert, explaining the user why it's important to place the bike at the drop-off location.*/
+"end-rental.alert-message.message.find-nearest-drop-off" = "Help other Donkey Republicans find your bike by placing it at a drop-off location. Closest drop-off is:";
+
+/*Short message displayed while the app connects to a lock.*/
+"end-rental.message.loading-02" = "You didn’t emit any CO2";
+
+/*Short message displayed while the app connects to a lock.*/
+"end-rental.message.loading-01" = "You helped reduce city congestion";
+
+/*Short message displayed while the app connects to a lock.*/
+"end-rental.message.loading-03" = "You helped keep the air clean";
+
+/*Short title. Describes the status of ending the rental.*/
+"end-rental.title.ending-rental" = "Ending rental";
+
+/*Alert title for ending without lock connection.*/
+"end-rental.alert-title.ending-without-lock-connection" = "Ending without lock connection";
+
+/*Alert message for ending rental without the lock connection. Uses Markdown*/
+"end-rental.alert-message.ending-without-lock-connection-01" = "Without a lock connection, we don’t have a final proof that the bike is locked and secure.";
+
+/*Alert message for ending rental without the lock connection. Uses Markdown*/
+"end-rental.alert-message.ending-without-lock-connection-02" = "If we can’t find the bike, **30€** will be charged if you added insurance and **180€** without insurance.";
+
+/*Alert message for ending rental without the lock connection. Uses Markdown*/
+"end-rental.alert-message.ending-without-lock-connection-03" = "In the case of a lock connection issue please [contact support](donkey://contact_support)";
+
+/*Button title for dismissing the alert view and going back to the rental/map screen.*/
+"end-rental.button.back-to-map" = "Back to map";
+
+/* More info */
+"end-rental.button.more-info" = "More info";
+
+/*Button title for displaying more information about the current context.*/
+"end-rental.alert-title.want-to-end-rental" = "Want to end rental?";
+
+/*Text displayed on the alert view informing the user about the name and the distance to the nearest drop-off, e.g. "Njalsgade, 53m away"*/
+"end-rental.label.distance-to-drop-off" = "%1$@, %2$@ away";
+
+/*Help topic title*/
+"help.title.i-cant-find-the-bike" = "I can't find the bike I rented";
+
+/*Help topic description.*/
+"help.text.i-cant-find-the-bike" = "Bummer, so sorry about that. Are you at the pick-up location you selected? Did you check all the info panels on the handlebars to match the bike names? Nothing? Okay, try this: press **Select another bike** and choose a bike that you see. If there are no other bikes at that location, press **Cancel** and you will receive a full refund.";
+
+/*Help topic title*/
+"help.title.dont-know-how-to-add-bike" = "I don't know how to add a bike";
+
+/*Help topic description.*/
+"help.text.dont-know-how-to-add-bike" = "You can only choose the number of bikes in the booking process, so sadly, you can not add bikes to an active rental. But! You can log in with another account and make a new booking or if you didn't unlock your bike yet, cancel your current rental and create a new one. If you have a membership, you can only rent 1 bike at a time.";
+
+/*Help topic title*/
+"help.title.cant-lock-my-bike" = "I can't lock my bike";
+
+/*Help topic description.*/
+"help.text.cant-lock-my-bike" = "If you can't connect to the lock, then try to push down the handle on it manually. If the handle on the lock seems to be blocked, turn off Bluetooth on your (and fellow co-rider's) phones and try closing the lock manually again. Please give us a call if this doesn't help you.";
+
+/*Help topic title*/
+"help.title.cant-unlock-my-bike" = "I can't unlock my bike";
+
+/*Help topic description.*/
+"help.text.cant-unlock-my-bike" = "Make sure that your Bluetooth is turned on and that you are next to the bike that's shown in the app. Sometimes it helps to close the app completely and then reopen it. Turn off other Bluetooth connections on the same phone - e.g. a headset. If none of these helped, restart your phone. If you encounter this issue after making a stop and none of the above helped, press \"···\" and end your rental by reporting the **Bike problem**. Get in touch with us if you need a refund. If you haven't started riding yet, press **Select another bike** and switch to a bike you see in the location. In case there are no other bikes around, cancel your rental and you will be automatically refunded.";
+
+/*Help topic title*/
+"help.title.faulty-bike" = "I have a faulty bike";
+
+/*Help topic description.*/
+"help.text.faulty-bike" = "Sorry about that. If you have a problem with your bike, you can switch to another bike.  Choose **Select another bike** or \"···\" and then press **Switch bike**. In case there are no other bikes in that location, and you haven't unlocked the bike yet, press “cancel” and you'll receive a full refund. If you unlocked the bike already and there are no more bikes in the location, cancel your rental, e-mail us with the details of your rental and we will refund you.";
+
+/*Help topic title*/
+"help.title.cant-return-bike" = "I can't return my bike";
+
+/*Help topic description.*/
+"help.text.cant-return-bike" = "Instead of docking stations or leaving the bikes anywhere, we use drop-off locations where you can drop off Donkey Bikes. At the end of your rental, you need to bring your bike to a drop-off location, so other riders can easily find the bikes. By doing so you also help keep the streets organised. Press **Return** and you will get directions to the closest drop-off location. Once you are there, press the **End rental** button.";
+
+/*Help topic title*/
+"help.title.have-to-pin-bike-location" = "I have to pin bike location?";
+
+/*Help topic description.*/
+"help.text.have-to-pin-bike-location" = "Worst case, you can end your rental by marking the location of the bike manually within the app. In other words, you can show us the position of your bike by dragging the map to the location of your bike, zooming in and placing a pin there. When you do so, be as precise as possible about the location to avoid being charged and to help the next riders to find the bike. If you have trouble ending your rental, please reach out to us.";
+
+/*Help topic title*/
+"help.title.have-to-pay-fee" = "I have to pay a fee?";
+
+/*Help topic description.*/
+"help.text.have-to-pay-fee" = "If you end your rental outside of a drop-off location, we will charge a relocation fee of **€10**. If the bike goes missing, you will only be charged if we can't find the bike within 30 days. Don't worry, we will never charge you before consulting with you. If you added theft insurance to your booking, you will be charged with **€30** - after 30 days - without insurance the cost of a lost bike is **€180**.";
+
+/*"About" menu title*/
+"about.title.about" = "About";
+
+/*"About" menu topic title*/
+"about.title.how-we-operate" = "How we operate?";
+
+/*"About" menu topic description*/
+"about.text.how-we-operate" = "Instead of docking stations or leaving the bikes anywhere, we use pick-up and drop-off locations where Donkey Bikes can be picked up from and have to be dropped off at. At the end of your rental, you need to bring your bike to a drop-off location, so that the next rider can easily find it. We stick to this system because it helps us keep the city and our bikes organised.";
+
+/*"About" menu topic title*/
+"about.title.donkey-story" = "The Donkey story";
+
+/*"About" menu topic description*/
+"about.text.donkey-story" = "In 2015, we built a special lock and an app in a Copenhagen basement. Since then, we’ve been taking that system and our orange bikes on a ride around the world. We see bike-sharing as part of the solution for transportation in overcrowded cities of the future. Our mission is to make cities greener, reduce pollution and lower congestion, in order to create more livable cities.";
+
+/*"How it works" topic title*/
+"how-to.title.how-to-rent-bike" = "How do I rent a bike?";
+
+/*"How it works" topic description*/
+"how-to.text.how-to-rent-bike" = "Open the app and you'll see a map of the city with orange pins - these mark our pick-up locations. Select the location you prefer and choose the number of bikes you want to rent from there. Then find the bikes and unlock them via the app.";
+
+/*"How it works" topic title*/
+"how-to.title.how-to-pick-up-bike" = "How do I pick up the bike?";
+
+/*"How it works" topic description*/
+"how-to.text.how-to-pick-up-bike" = "You will get directions to your pick-up location. Once you are there, look at the info panels on the handlebars and a name sticker on the bike frame to find the bike with the name that is shown in the app and press **Unlock**. ";
+
+/*"How it works" topic title*/
+"how-to.title.add-theft-insurance" = "Should I add theft insurance?";
+
+/*"How it works" topic description*/
+"how-to.text.add-theft-insurance" = "Buying theft insurance reduces the cost in case your bike gets stolen during your rental. You can only buy theft insurance in the booking process. ";
+
+/*"How it works" topic title*/
+"how-to.title.about-payment" = "What about payment?";
+
+/*"How it works" topic description*/
+"how-to.text.about-payment" = "We accept Visa, MasterCard and American Express. If you received a coupon code and if you want to add theft insurance to your rental, you can add them before confirming the booking. Once you confirm your booking, your card will be charged.";
+
+/*"How it works" topic title*/
+"how-to.title.make-stops" = "Can I make stops on the way?";
+
+/*"How it works" topic description*/
+"how-to.text.make-stops" = "During the rental period the bike is all yours. You can unlock and lock it as many times as you want, just make sure to park it nicely and to lock it safely when you make a stop.";
+
+/*"How it works" topic title*/
+"how-to.title.return-a-bike" = "How do I return the bike?";
+
+/*"How it works" topic description*/
+"how-to.text.return-a-bike" = "If you don't need the bike anymore, press **Return**. You will get directions to the closest drop-off location. Once you are there, lock the bike, press **End rental** and follow the instructions in the app.";
+
+/*Alert view title asking user if they are at the drop-off location*/
+"end-rental.alert-title.are-you-at-drop-off" = "Are you at a drop-off?";
+
+/*Alert view message prompting user to pin bike location*/
+"end-rental.alert-message.are-you-at-drop-off-01" = "Please indicate the position of the bike to end your rental.";
+
+/*Alert view message prompting user to pin bike location*/
+"end-rental.alert-message.are-you-at-drop-off-02" = "If we can’t find the bike at the indicated location, we will reach out to you.";
+
+/*Alert view message warning user that they are about to end the rental outside of the drop-off zone*/
+"end-rental.alert-message.ending-outside-of-drop-off-zone-01" = "Placing your bike outside a drop-off zone means that we will have to go and collect the bike to bring it back to a drop-off zone. This will cost you **10€**.";
+
+/*Alert view message warning user that they are about to end the rental outside of the drop-off zone*/
+"end-rental.alert-message.ending-outside-of-drop-off-zone-02" = "If we can’t find your bike, **30€** will be charged if you added insurance and **180€** without insurance.";
+
+/*Alert view title warning the user the they're about to end rental outside of the drop-off zone*/
+"end-rental.alert-title.ending-outside-of-drop-off-zone" = "Ending outside of a drop-off zone";
+
+/*Alert view title informing user that GPS is inaccurate*/
+"end-rental.alert-title.gps-is-inaccurate" = "GPS signal is inaccurate";
+
+/*Alert view message informing user that GPS signal is inaccurate*/
+"end-rental.alert-message.gps-is-inaccurate" = "Your phone GPS signal is currently inaccurate.";
+
+/*Alert view title informing user that GPS is still inaccurate*/
+"end-rental.alert-title.gps-is-still-inaccurate" = "GPS signal is still inaccurate";
+
+/*Alert view message informing user that GPS signal is still inaccurate.*/
+"end-rental.alert-message.gps-is-still-inaccurate-01" = "Please leave the bike at a drop-off location and indicate the position of the bike to end your rental.";
+
+/*Alert view message informing user that GPS signal is still inaccurate.*/
+"end-rental.alert-message.gps-is-still-inaccurate-02" = "If we can’t find the bike at the indicated location, we will reach out to you.";
+
+/*Screen title prompting the user to lock the bike in order to end rental.*/
+"end-rental.title.lock-bike-to-end-rental" = "Lock bike to end rental";
+
+/*Alert view title informing the user that their bike didn't lock properly*/
+"end-rental.alert-title.bike-is-unlocked" = "Bike is unlocked";
+
+/*Alert view message informing user that their bike didn't lock properly*/
+"end-rental.alert-message.bike-is-unlocked-01" = "It seems that the bike isn’t properly locked. Please try to lock it again.";
+
+/*Alert view message informing user that their bike didn't lock properly*/
+"end-rental.alert-message.bike-is-unlocked-02" = "In the case of a lock connection issue please [contact support](donkey://contact-support)";
+
+/*Message informing the user that their rental is still active.*/
+"end-rental.text.your-rental-is-still-active" = "Your rental is still active";
+
+/*Screen title informing user that the bike is locked.*/
+"end-rental.title.bike-locked" = "Bike locked";
+
+/*Alert view title prompting user to connect to internet before ending rental*/
+"end-rental.alert-title.connect-to-internet" = "Connect to internet to end your rental";
+
+/*Alert view message prompting user to connect to internet before ending rental*/
+"end-rental.alert-message.connect-to-internet" = "You need to be online to end your rental.";
+
+/*Alert view message informing the user that connection to lock failed*/
+"end-rental.alert-message.lock-connection-failed-01" = "We can’t seem to get a connection to the bike. Please disconnect other Bluetooth devices (e.g. headphones) and turn your Bluetooth off and on. In case this doesn’t work, try restarting your phone.";
+
+/*Alert view message informing the user that connection to lock failed for the second time.*/
+"end-rental.alert-message.lock-connection-failed-02" = "We still can’t create a connection to the bike. If you’re with the bike, please try to connect again.";
+
+/*Alert view message asking the user to specify the location of the bike*/
+"end-rental.alert-message.where-is-the-bike-01" = "It seems that you are not currently with the bike you rented.";
+
+/*Alert view message asking the user to specify the location of the bike*/
+"end-rental.alert-message.where-is-the-bike-02" = "Please let us know where your bike is currently placed to end your rental.";
+
+/*"Contact us" menu title*/
+"contact-us.title.contact-us" = "Contact us";
+
+/*"Contact us" description*/
+"contact-us.description.contact-us-01" = "You are welcome to give us a call or send us an e-mail with your rental details";
+
+/*"Contact us" description*/
+"contact-us.description.contact-us-02" = "No tricks or dark magic, we have some real lovely humans in our stables, they look at each case individually, so keep on riding, you will be listened to. And, of course, you won't get charged in case we messed up.";
+
+/*"Contact us" menu title "Opening hours"*/
+"contact-us.title.opening-hours" = "**Opening hours**";
+
+/*Opening hours*/
+"contact-us.text.opening-hours-01" = "Sunday - Thursday from 9 AM to 5 PM (CET)";
+
+/*Opening hours*/
+"contact-us.text.opening-hours-02" = "Friday & Saturday from 9 AM to 7 PM (CET)";
+
+/*Alert view title asking user how they'd like to continue after reporting a bike problem.*/
+"bike-problem.alert-title.how-would-you-like-to-continue" = "How would you like to continue?";
+
+/*Alert view message asking user how they'd like to continue after reporting a bike problem.*/
+"bike-problem.alert-message.how-would-you-like-to-continue" = "You will no longer be able to unlock the bike after you end the rental.";
