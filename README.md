@@ -8,6 +8,7 @@ Usage:
 ./main.swift <sourceURL> <destinationURL>
 ```
 `sourceURL` - URL of Localizable.Strings (english version) in your project
+
 `destinationURL` - URL of the file with the resulting Strings struct
 
 Example output:
