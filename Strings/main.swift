@@ -283,8 +283,6 @@ extension String {
 
         return camelCased
     }
-
-
 }
 
 do {
@@ -296,7 +294,8 @@ do {
         .map(parseParameters)
         .map(generateFunctionName)
 
-    var result = "/**\n * This is an auto-generated file. Do not modify manually.\n "
+    var result = "/**\n * This is an auto-generated file. Do not modify manually.\n * See: https://github.com/AleksanderMaj/Strings for details\n */\n\n"
+
     result.append("import Foundation\n\n")
 
     result.append("struct Strings {\n")
@@ -319,21 +318,3 @@ do {
 } catch {
     print(error)
 }
-
-//print(prefix)
-
-//let results = strings.compactMap(analyze)
-//let comments = strings.compactMap(extractComment)
-//
-//print("struct Strings {")
-//let zipped = Array(zip(results, comments))
-//zipped.forEach {
-//    print("/// \($0.0[2])")
-//    print("static func \($0.0[0])() -> String {")
-//    print("return NSLocalizedString(\"\($0.0[1])\", comment: \"\($0.1)\")")
-//    print("}")
-//    print("")
-//}
-//print("}")
-
-
