@@ -1,5 +1,5 @@
 
-Usage:
+## Usage:
 
 1. Clone
 2. Build **Strings** scheme using **My Mac**
@@ -11,7 +11,7 @@ Usage:
 
 `<destinationURL>` - URL of the file with the resulting Strings struct
 
-Example output:
+### Example output:
 ```
 struct Strings {
     /**
@@ -30,7 +30,7 @@ struct Strings {
 }
 ```
 
-Adding a new string to your project:
+### Adding a new string to your project:
 
 1. Add a translation in the `en.lproj/Localizable.strings` with the following format:
 ```
