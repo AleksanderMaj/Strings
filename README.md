@@ -33,12 +33,16 @@ struct Strings {
 ### Adding a new string to your project:
 
 1. Add a translation in the `en.lproj/Localizable.strings` with the following format:
+
 ```
 \* <comment> *\
 <new-string-id> = <english translation>;
 ```
 
-`<new-string-id>` - use a combination of alphanumeric, `.` and `-` characters. Preferably in a format: `general-area.type-of-string.context`,
+`<new-string-id>` - use a combination of alphanumeric, `.` and `-` characters. Preferably in a format: 
+
+`general-area.type-of-string.context`,
+
 Examples:
 
 `payment.text-input-placeholder.credit-card-expiry-date`
