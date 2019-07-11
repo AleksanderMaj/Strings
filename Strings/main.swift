@@ -62,7 +62,7 @@ struct LocalizableString: CustomStringConvertible {
 
     var functionBody: String {
         var result: String
-        let nsLocalizedStringCall = "NSLocalizedString(\"\(id!)\", comment: \"\(comment!)\")"
+        let nsLocalizedStringCall = "NSLocalizedString(\"\(id!)\", bundle: Current.localization.bundle, comment: \"\(comment!)\")"
         if let parameters = parameters, !parameters.isEmpty {
             let arguments = parameters
                 .map { $0.index.map { "param\($0 + 1)" } ?? "param" }
